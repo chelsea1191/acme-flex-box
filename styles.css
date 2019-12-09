@@ -1,0 +1,32 @@
+.makeflex {
+  display: flex;
+  border: 1px solid gray;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font: Arial, Verdana, sans-serif;
+  font-size: 21px;
+  color: white;
+  background-color: royalblue;
+}
+
+.gray {
+  color: gray;
+}
+
+.create {
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  margin-left: 190px;
+  margin-right: 190px;
+}
